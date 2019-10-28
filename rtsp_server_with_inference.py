@@ -53,6 +53,8 @@ class SensorFactory(GstRtspServer.RTSPMediaFactory):
     # 실제 프레임 전송 부분 
     def on_need_data(self, src, lenght):
 
+        # inference된 결과 리스트에 있는 프레임 읽어와서 
+
         if len(shared_result_img_list) == 0:
             frame = self.empty_frame
         else:
