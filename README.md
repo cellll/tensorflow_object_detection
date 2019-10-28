@@ -1,8 +1,10 @@
-https://github.com/tensorflow/models/tree/master/object_detection
+원본 출처 https://github.com/tensorflow/models/tree/master/object_detection
 
-꺼 수정한거에요
+### usage
 
-감사합니다 
+python3 video_demo.py videofile
+python3 video_demo.py rtsp://...
+
 
 
 
