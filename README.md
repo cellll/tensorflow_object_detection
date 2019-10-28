@@ -2,7 +2,7 @@
 
 ### usage
 
-python3 video_demo.py videofile
+python3 video_demo.py videofile <br>
 python3 video_demo.py rtsp://...
 
 
